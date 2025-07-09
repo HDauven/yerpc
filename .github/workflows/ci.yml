@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run:
-          cargo test --features support-axum,support-tungstenite
+          cargo test --features support-axum,support-tungstenite,openrpc
 
   fmt:
     name: Rustfmt
